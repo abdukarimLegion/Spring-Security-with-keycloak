@@ -1,0 +1,25 @@
+spring:
+  application:
+    name: "Spring Security with Keycloak"
+  spring:
+    security:
+      oauth2:
+        resourceserver:
+          jwt:
+            issuer-uri: ${app.keycloak.serverUrl}/realms/${app.keycloak.realm}
+
+logging:
+  level:
+    org.springframework.security: DEBUG
+
+
+server:
+    port: 8081
+
+app:
+  keycloak:
+    admin:
+      clientId: my-super-client
+      clientSecret: WAVZdOGkQhVs9vX5dn3VMnXzbCpcToRa
+    realm: MySuperAppRealm
+    serverUrl: http://localhost:8080
