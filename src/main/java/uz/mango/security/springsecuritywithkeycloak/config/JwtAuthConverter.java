@@ -14,6 +14,12 @@ import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+/**
+ * JwtAuthConverter
+ *
+ * @author Abdukarim
+ */
+
 @Component
 public class JwtAuthConverter implements Converter<Jwt, AbstractAuthenticationToken> {
 

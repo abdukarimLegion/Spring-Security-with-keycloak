@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Spring Security with Keycloak.iml" filepath="$PROJECT_DIR$/Spring Security with Keycloak.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Spring-Security-with-Keycloak.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Spring-Security-with-Keycloak.main.iml" />
     </modules>
   </component>
 </project>
