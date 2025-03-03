@@ -6,7 +6,6 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import uz.mango.security.springsecuritywithkeycloak.model.User;
 import uz.mango.security.springsecuritywithkeycloak.service.UserService;
-
 /**
  * UsersApi
  *
